@@ -8,7 +8,7 @@ const AboutMe = () => {
             <div className='row justify-content-center align-items-center'>
                 <div className='about-me-info col-lg-5 col-sm-12'>
                     <h1 className='m-4'>About Me</h1>
-                    <p className='lh-lg'>I am an undergraduate student at Colorado School of Mines driven to bridge teaching and technology through creative innovations and dedication towards outreach. 
+                    <p className='lh-lg'>I am a computer science major and teaching minor at Colorado School of Mines driven to bridge teaching and technology through creative innovations and dedication towards outreach. 
                         <br></br><br></br>I enjoy problem-solving and am passionate about software development. I am always looking for future opportunities to strengthen my skills and form new connections.
                     </p>
                 </div>
