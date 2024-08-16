@@ -21,7 +21,7 @@ const BannerInfo = () => {
                                 <a className='social-icon m-3' href="https://github.com/katr1na" target="_blank" rel="noopener noreferrer">
                                     <img src={github} alt='Github Icon'></img>
                                 </a>
-                                <a className='social-icon m-3'>
+                                <a className='social-icon m-3' href="mailto:katrinango3388@gmail.com">
                                     <img src={mail} alt='Mail Icon'></img>
                                 </a>
                             </div>

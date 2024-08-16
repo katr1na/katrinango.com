@@ -138,6 +138,7 @@
 .my-projects {
     font-family: 'Mochiy Pop One';
     color: var(--dark-purple);
+    font-size: 1.7rem;
 }
 
 .project-card {
@@ -156,7 +157,7 @@
 
 .project-card h1 {
     font-family: 'Mochiy Pop One';
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 40px;
 }
 
