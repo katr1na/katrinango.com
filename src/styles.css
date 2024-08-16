@@ -1,0 +1,187 @@
+:root {
+    --bg-color: #233464; /* Darkest Blue */
+    --light-blue: #84ABE6; /* Lightest Blue */
+    --bright-yellow: #FBD585; /* Bright Yellow*/
+    --dark-purple: #445584; /* Dark Purple */
+    --medium-blue: #6d8dc6; /* Medium Blue */
+    --light-purple: #94ADF1;
+  }
+
+@font-face {
+    font-family: 'Modak';
+    src: url('assets/Modak-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Mochiy Pop One';
+    src: url('assets/MochiyPopOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Kiwi Maru';
+    src: url('assets/KiwiMaru-Regular.ttf');
+}
+
+.fullName {
+    color: white;
+    font-family: 'Modak';
+    font-size: calc(2rem + 2vw);
+    letter-spacing: .3rem;
+}
+
+.tag {
+    font-family: 'Mochiy Pop One';
+    font-size: calc((2rem + 2vw) * 0.4);
+    color: white;
+    letter-spacing: .1rem;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    width: 100%;
+    height: 50vh; 
+    background-color: var(--bg-color);
+}
+  
+.banner-bg {
+    flex: 1;
+}
+  
+.banner-container {
+    position: relative;
+}
+/* 
+.wave-divider {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px; 
+    z-index: 1; 
+    width: 100%; 
+} */
+
+.top-border {
+    border-top: 40px solid var(--light-blue); 
+}
+
+/*   
+.wave-divider {
+    width: 100%;
+    z-index: 1;
+} */
+
+.banner-info {
+    height: 50vh;
+}
+
+.info, .profile-container{
+    height: 50%;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 100%;
+    border: 8px solid white;
+}
+
+.about-me {
+    background-color: var(--medium-blue);
+}
+
+.tech-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.tech-skills .container {
+    width: 80%;
+    height: 100%;
+    background-color: var(--bright-yellow);
+    border-radius: 20%;
+}
+
+.about-me h1 {
+    font-family: 'Mochiy Pop One';
+    color: white;
+}
+
+.about-me p {
+    color: white;
+    font-size: 1.05rem;
+    font-family: 'Kiwi Maru';
+}
+
+.tech-skills p {
+    font-family: 'Mochiy Pop One';
+    color: var(--dark-purple);
+    font-size: 1.05rem;
+}
+
+.projects .container .row-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.my-projects {
+    font-family: 'Mochiy Pop One';
+    color: var(--dark-purple);
+}
+
+.project-card {
+    color: white;
+    background-color: var(--dark-purple);
+    border-radius: 10%;
+    height: 100%;
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box;
+    aspect-ratio: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card h1 {
+    font-family: 'Mochiy Pop One';
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.project-card a {
+    color: var(--bright-yellow);
+    font-family: 'Kiwi Maru';
+    position: relative;
+    font-size: 18px;
+}
+
+.project-card p {
+    font-family: 'Kiwi Maru';
+    width: 100%;
+}
+  
+.divider {
+    width: 50%; 
+    height: 6px; 
+    background-color: var(--dark-purple); 
+    margin: 50px auto 20px auto; 
+}
+
+.footer, .footer p {
+    background-color: var(--bg-color);
+    color: var(--light-purple);
+    font-family: 'Mochiy Pop One';
+}
+  
