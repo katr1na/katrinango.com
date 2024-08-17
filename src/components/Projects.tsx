@@ -1,10 +1,16 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
+import React from 'react';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
-  const bloodTypingLink = <a href='https://github.com/katr1na/Blood-Typing-Game'  target="_blank" rel="noopener noreferrer">Git</a>
-  const psycheLink = <a href='https://github.com/katr1na/psyche_chatbot'  target="_blank" rel="noopener noreferrer">Git</a>
-  const microbladingLink = <a href='https://luminousbrows.com/'  target="_blank" rel="noopener noreferrer">Link</a>
+  const bloodTypingLink = <a href='https://github.com/katr1na/Blood-Typing-Game'  target='_blank' rel='noopener noreferrer'>Git <svg className='arrow-right' width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+  <path d='M16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20L10.575 18.6L16.175 13Z'/>
+</svg></a> 
+  const psycheLink = <a href='https://github.com/katr1na/psyche_chatbot' target='_blank' rel='noopener noreferrer'>Git <svg className='arrow-right' width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+  <path d='M16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20L10.575 18.6L16.175 13Z'/>
+</svg></a>
+  const microbladingLink = <a href='https://luminousbrows.com/' target='_blank' rel='noopener noreferrer'>Link <svg className='arrow-right' width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+  <path d='M16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20L10.575 18.6L16.175 13Z'/>
+</svg></a>
 
   return (
     <div className='projects text-center py-5'>
@@ -45,7 +51,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

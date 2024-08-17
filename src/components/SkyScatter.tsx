@@ -25,28 +25,28 @@ interface SkyScatterProps {
 
 const getIconWidth = (iconSrc: string, width : number) => {
   if (iconSrc === pink_big_star || iconSrc === yellow_big_star || iconSrc === blue_big_star) {
-    if (width < 1440 && width > 768) {
+    if (width <= 1440 && width > 768) {
       return width * 0.03;
     } else if (width > 1440) {
       return 35;
     }
     return width * 0.05;
   } else if (iconSrc === pink_little_star || iconSrc === yellow_little_star || iconSrc === blue_little_star) {
-    if (width < 1440 && width > 768) {
+    if (width <= 1440 && width > 768) {
       return width * 0.018;
     } else if (width > 1440) {
       return 26;
     }
     return width * 0.03;
   } else if (iconSrc === grey_big_star) {
-    if (width < 1440 && width > 768) {
+    if (width <= 1440 && width > 768) {
       return width * 0.02;
     } else if (width > 1440) {
       return 32;
     }
     return width * 0.05;
   } else if (iconSrc === grey_little_star) {
-    if (width < 1440 && width > 768) {
+    if (width <= 1440 && width > 768) {
       return width * 0.01;
     } else if (width > 1440) {
       return 18;
@@ -99,7 +99,7 @@ const getNonCollidingPosition = (
   while (collision && attempts < maxAttempts) {
     position = {
       x: Math.random() * (containerWidth - 30), // Adjust size as needed
-      y: Math.random() * (containerHeight - 30)
+      y: Math.random() * (containerHeight - 40)
     };
 
     collision = icons.some(icon => 
@@ -174,7 +174,7 @@ const SkyScatter: React.FC<SkyScatterProps> = ({ className }) => {
   ));
 
   return (
-    <div ref={containerRef} className="position-relative w-100 h-100" style={{ height: '100vh' }}>
+    <div ref={containerRef} className='position-relative w-100 h-100' style={{ height: '100vh' }}>
       {iconElements}
     </div>
   );

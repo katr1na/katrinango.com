@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode } from 'react';
 
 interface ProjectCardProps {
     className?: string; 
@@ -16,7 +16,7 @@ const ProjectCard : React.FC<ProjectCardProps> = ({ className , title, desc, tec
         <p>{desc}</p>
         {link}
     </div>
-  )
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;

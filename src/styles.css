@@ -2,6 +2,7 @@
     --bg-color: #233464; /* Darkest Blue */
     --light-blue: #84ABE6; /* Lightest Blue */
     --bright-yellow: #FBD585; /* Bright Yellow*/
+    --hover-bright-yellow: #fef2da;
     --dark-purple: #445584; /* Dark Purple */
     --medium-blue: #6d8dc6; /* Medium Blue */
     --light-purple: #94ADF1;
@@ -88,6 +89,15 @@
     justify-content: center; 
 }
 
+.linkedin, .github, .mail {
+    stroke: var(--light-purple);
+    transition: stroke 0.3s ease;
+}
+
+.linkedin:hover, .github:hover, .mail:hover {
+    stroke: var(--medium-blue);
+}
+
 .profile-pic {
     border-radius: 50%;
     height: 100%;
@@ -123,10 +133,28 @@
     font-family: 'Kiwi Maru';
 }
 
+.about-me a {
+    color: var(--bright-yellow);
+    text-decoration: none;
+    font-family: 'Kiwi Maru';
+    position: relative;
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+}
+
+.about-me a:hover, .about-me a:hover .arrow-right {
+    color: var(--hover-bright-yellow);
+    fill: var(--hover-bright-yellow);
+}
+
 .tech-skills p {
     font-family: 'Mochiy Pop One';
     color: var(--dark-purple);
     font-size: 1.05rem;
+}
+
+.tech-skills p:hover {
+    color: var(--light-purple);
 }
 
 .projects .container .row-container {
@@ -163,14 +191,27 @@
 
 .project-card a {
     color: var(--bright-yellow);
+    text-decoration: none;
     font-family: 'Kiwi Maru';
     position: relative;
     font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.project-card a:hover, .project-card a:hover .arrow-right {
+    color: var(--hover-bright-yellow);
+    fill: var(--hover-bright-yellow);
 }
 
 .project-card p {
     font-family: 'Kiwi Maru';
     width: 100%;
+}
+
+.arrow-right {
+    margin-bottom: 3px;
+    fill: var(--bright-yellow);
+    transition: fill 0.3s ease;
 }
   
 .divider {
