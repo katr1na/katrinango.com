@@ -10,7 +10,7 @@ const AboutMe = () => {
     };
 
     return (
-        <div className='about-me pb-5'>
+        <div className='about-me pb-5 pt-5'>
             <div className='container pt-4 text-center'>
                 <div className='row justify-content-center align-items-center'>
                     <div className='about-me-info col-lg-5 col-sm-12'>

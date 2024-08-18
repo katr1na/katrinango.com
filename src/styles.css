@@ -6,6 +6,7 @@
     --dark-purple: #445584; /* Dark Purple */
     --medium-blue: #6d8dc6; /* Medium Blue */
     --light-purple: #94ADF1;
+    --pink: #FFB6C1;
   }
 
 @font-face {
@@ -49,29 +50,30 @@
 .banner-bg {
     flex: 1;
 }
-  
-.banner-container {
-    position: relative;
-}
-/* 
-.wave-divider {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -100px; 
-    z-index: 1; 
-    width: 100%; 
-} */
 
 .top-border {
-    border-top: 40px solid var(--light-blue); 
+    border-top: 40px solid var(--light-blue);
 }
 
-/*   
-.wave-divider {
+.custom-shape-divider-top-1723951671 {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 1;
-} */
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1723951671 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 18vh;
+}
+
+.custom-shape-divider-top-1723951671 .shape-fill {
+    fill: var(--light-blue);
+}
 
 .banner-info {
     height: 50vh;
@@ -105,6 +107,7 @@
 }
 
 .about-me {
+    position: relative;
     background-color: var(--medium-blue);
 }
 
@@ -155,6 +158,56 @@
 
 .tech-skills p:hover {
     color: var(--light-purple);
+}
+
+.learn-more-container {
+    position: relative;
+    background-color: var(--dark-purple);
+    border-radius: 30px;
+    height: 100%;
+    width: 90%;
+    padding: 20px; 
+}
+
+.learn-more {
+    background-color: var(--medium-blue);
+    padding: 30px;
+}
+
+.learn-more-divider {
+    width: 20%; 
+    height: 6px; 
+    background-color: var(--bright-yellow); 
+    margin: 30px auto; 
+}
+
+.learn-more h1 {
+    font-family: 'Mochiy Pop One';
+    color: white;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.learn-more p {
+    font-family: 'Kiwi Maru';
+    color: white;
+    width: 60%;
+}
+
+.orgs {
+    color: var(--pink)
+}
+
+.arrow-left {
+    stroke: var(--bright-yellow);
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    transition: stroke 0.3s ease;
+}
+
+.arrow-left:hover {
+    stroke: var(--hover-bright-yellow);
 }
 
 .projects .container .row-container {
@@ -227,3 +280,25 @@
     font-family: 'Mochiy Pop One';
 }
   
+
+@media (max-width: 767px) {
+    .learn-more-container {
+        width: 100%;
+    }
+
+    .learn-more h1 {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    .learn-more p {
+      width: 100%;
+    }
+
+    .custom-shape-divider-top-1723951671 svg {
+        position: relative;
+        display: block;
+        width: calc(121% + 1.3px);
+        height: 60px;
+    }
+}
