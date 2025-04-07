@@ -1,5 +1,5 @@
 import React from 'react';
-import profileIcon from '../assets/profile-pic.jpg';
+import profileIcon from '../assets/profile-pic.jpeg';
 import '../styles.css';
 
 const BannerInfo = () => {
