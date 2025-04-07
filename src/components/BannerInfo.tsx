@@ -14,7 +14,7 @@ const BannerInfo = () => {
                     <div className='socials container text-center'>
                         <div className='row'>
                             <div className='col'>
-                                <a className='social-icon linkedin m-3' href='https://www.linkedin.com/in/katrinango-/' target='_blank' rel='noopener noreferrer'>
+                                <a className='social-icon linkedin m-3' href='https://www.linkedin.com/in/katrinadngo/' target='_blank' rel='noopener noreferrer'>
                                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_6_232)">
                                         <path d="M22.6667 11.3333C24.921 11.3333 27.0831 12.2289 28.6771 13.8229C30.2712 15.417 31.1667 17.579 31.1667 19.8333V29.75H25.5V19.8333C25.5 19.0819 25.2015 18.3612 24.6702 17.8299C24.1388 17.2985 23.4182 17 22.6667 17C21.9153 17 21.1946 17.2985 20.6632 17.8299C20.1319 18.3612 19.8334 19.0819 19.8334 19.8333V29.75H14.1667V19.8333C14.1667 17.579 15.0622 15.417 16.6563 13.8229C18.2504 12.2289 20.4124 11.3333 22.6667 11.3333Z" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -42,7 +42,7 @@ const BannerInfo = () => {
                                 </svg>
 
                                 </a>
-                                <a className='social-icon mail m-3' href='mailto:katrinango3388@gmail.com'>
+                                <a className='social-icon mail m-3' href='mailto:katrinadngo@gmail.com'>
                                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_6_230)">
                                         <path d="M31.1667 8.49999C31.1667 6.94166 29.8917 5.66666 28.3334 5.66666H5.66669C4.10836 5.66666 2.83336 6.94166 2.83336 8.49999M31.1667 8.49999V25.5C31.1667 27.0583 29.8917 28.3333 28.3334 28.3333H5.66669C4.10836 28.3333 2.83336 27.0583 2.83336 25.5V8.49999M31.1667 8.49999L17 18.4167L2.83336 8.49999" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
