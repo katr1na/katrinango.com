@@ -33,6 +33,7 @@ const AboutMe = () => {
                                     <p>Python</p>
                                     <p>HTML/CSS</p>
                                     <p>PostgresSQL</p>
+                                    <p>Kotlin</p>
                                 </div>
                                 <div className='col-6'>
                                     <p>Java</p>

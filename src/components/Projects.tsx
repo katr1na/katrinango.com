@@ -8,9 +8,12 @@ const Projects = () => {
   const psycheLink = <a href='https://github.com/katr1na/psyche_chatbot' target='_blank' rel='noopener noreferrer'>Git <svg className='arrow-right' width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
   <path d='M16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20L10.575 18.6L16.175 13Z'/>
 </svg></a>
-  const microbladingLink = <a href='https://luminousbrows.com/' target='_blank' rel='noopener noreferrer'>Link <svg className='arrow-right' width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+  const microbladingLink = <a href='https://luminousbrowspmu.com/' target='_blank' rel='noopener noreferrer'>Link <svg className='arrow-right' width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
   <path d='M16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20L10.575 18.6L16.175 13Z'/>
 </svg></a>
+  const taskmatelink = <a href='https://taskmateapp.my.canva.site/' target='_blank' rel='noopener noreferrer'>Link <svg className='arrow-right' width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+  <path d='M16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20L10.575 18.6L16.175 13Z'/>
+  </svg></a>
 
   return (
     <div className='projects text-center py-5'>
@@ -44,8 +47,16 @@ const Projects = () => {
             <ProjectCard 
               title='Microblading Business Website' 
               desc='A web application for Luminous Brows, a microblading and cosmetics business based in Lafayette, CO, to help customers book appointments.' 
-              tech='HTML, CSS' 
+              tech='React, Node.js, Javascript' 
               link={microbladingLink}
+            />
+          </div>
+          <div className='project-card'>
+            <ProjectCard 
+              title='TaskMate' 
+              desc='A mobile app for users to collaborate, create, and complete tasks amongst friends, family, co-workers, etc.' 
+              tech='Kotlin, Firebase' 
+              link={taskmatelink}
             />
           </div>
         </div>

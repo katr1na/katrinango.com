@@ -18,7 +18,7 @@ const LearnMore = () => {
                 </a>
                 <h1 className='mb-3'>Get to Know Me</h1>
                 <div className='learn-more-divider'></div>
-                <p className='lh-lg m-auto'>I am currently a junior with a variety of experiences from different realms, such as being a software engineer intern at Transamerica, working on teams around GenAI adoption and platform rewrites. 
+                <p className='lh-lg m-auto'>I am currently a senior with a variety of experiences from different realms, such as being a technology solutions intern at Credera and a software engineer intern at Transamerica. 
                     <br/> <br/> I also have teaching experience in computer science and am continuing this path alongside software development, where I taught game development and web applications to K-12 students. 
                     <br/><br/>Teaching has been a growing passion for me, and I enjoy being both the learner and the guider as I take part in opportunities that push the boundaries of technology.
                 </p>
