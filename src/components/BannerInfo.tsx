@@ -9,7 +9,7 @@ const BannerInfo = () => {
                 <div className='info col-lg-6 col-md-7 col-sm-12 order-md-1 order-2'>
                     <div className='name-tag'>
                         <h1 className='fullName'>Katrina Ngo</h1>
-                        <p className='tag'>EdTech, Developer, Robloxian</p>
+                        <p className='tag'>EdTech, Developer, Learner</p>
                     </div>
                     <div className='socials container text-center'>
                         <div className='row'>
